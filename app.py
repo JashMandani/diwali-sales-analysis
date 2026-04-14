@@ -27,6 +27,14 @@ html, body, [class*="css"] {
 
 /* Hide default streamlit chrome */
 #MainMenu, footer { visibility: hidden; }
+header {
+    visibility: visible;
+    height: 0px;
+}
+
+header * {
+    display: none;
+}
 
 /* Page background */
 .stApp { background: #0F0E17; }
