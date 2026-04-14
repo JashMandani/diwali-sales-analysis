@@ -26,7 +26,7 @@ html, body, [class*="css"] {
 }
 
 /* Hide default streamlit chrome */
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 
 /* Page background */
 .stApp { background: #0F0E17; }
@@ -458,7 +458,6 @@ with st.expander("📋 View filtered raw data"):
 # Footer
 st.markdown(f"""
 <div style='text-align:center; padding:40px 0 20px; color:{MUTED}; font-size:0.8rem;'>
-  🪔 Diwali Sales Analysis &nbsp;·&nbsp; Built with Python &amp; Streamlit &nbsp;·&nbsp;
-  <span style='color:{ORANGE}'>Data Science Portfolio Project</span>
+  🪔 Diwali Sales Analysis &nbsp;·&nbsp; Built with Python &amp; Streamlit
 </div>
 """, unsafe_allow_html=True)
